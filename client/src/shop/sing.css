@@ -1,0 +1,51 @@
+/* SingleBook.css */
+
+.tile {
+  display: flex;
+  width: 100%;
+  max-width: 90%; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 150px; /* Adjust image width as needed */
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px; /* Add spacing between image and details */
+}
+
+.details {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.5rem; /* Larger font size for title */
+  font-weight: bold;
+  margin-bottom: 10px; /* Add spacing below title */
+}
+
+.author {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px; /* Add spacing below author */
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
